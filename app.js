@@ -24,8 +24,10 @@ var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
     ev.target.classList.toggle('checked');
+    
   }
 }, false);
+
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
@@ -59,3 +61,4 @@ function renome(){
     var rename = prompt('Renomeie');
     document.querySelector("#title").innerText =`${rename}`;
 }
+

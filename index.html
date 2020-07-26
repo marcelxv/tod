@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOD</title>
+    <title>palleta - todo app</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <div class="app-header">
-        <button class="app-header__item side-menu-trigger">
-          <span class="k-font-icon k-i-hamburger" ></span>
-        </button>
-        <div class="app-header__item app-header__title">t o d</div>
-        <button class="app-header__item">listas</button>
-        <button class="app-header__item">sobre</button>
-      </div> -->
+ 
     <div id="main">
     <div id="tod" class="header boxed">
-        <a href="#"><div class="tooltip"><h1 onclick="renome()" id="title">meu tod</h1></a>
+        <a href="#"><div class="tooltip"><h1 onclick="renome()" id="title">minha paleta</h1></a>
         <span class="tooltiptext">Renomeie sua lista</span></div>
 
         <input type="text" id="myInput" placeholder="bota pra fazer...">
-        <span onclick="newElement()" class="addBtn">add</span>
+        <span onclick="newElement()" id="myBtn" class="addBtn">add</span>
       </div>
       
       <ul id="myUL" class="boxed">
-        <li>ser abduzido 👽<span class="close">×</span></li>
-        <li>clicar no nome da lista para mudar o nome ✏️<span class="close">×</span></li>
-        <li>matar um robô gigante 🤖<span class="close">×</span></li>
+        <li class="checked">ser abduzido 👽<span class="close">×</span></li>
+        <li >clicar no nome da lista para mudar o nome ✏️<span class="close">×</span></li>
         <li>apagar esta tarefa clicando no x ali ✌🏻<span class="close">×</span></li>
       </ul>
 </div>
     <div id="footer">Criado por Marcel Lourenço (@marcelxv) em Julho de 2020.</div>
 </body>
+<script src="app.js"></script>
+
 </html>

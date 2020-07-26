@@ -75,3 +75,11 @@ input.addEventListener("keyup", function(event) {
     document.getElementById("myBtn").click();
   }
 });
+document.onkeyup=function(e) {
+    if(e.which == 13){
+        $('myBtn').blur();
+        //rest of function
+
+        return false;
+    }
+}

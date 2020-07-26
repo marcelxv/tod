@@ -34,7 +34,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("Escreve alguma coisa pra fazer!");
+    alert("escreva alguma coisa pra fazer!");
   } else {
     document.getElementById("myUL").appendChild(li);
   }

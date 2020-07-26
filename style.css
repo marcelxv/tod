@@ -12,6 +12,9 @@ a {
     color: #cca8e9
 }
 
+
+
+
 /* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
@@ -122,6 +125,10 @@ input::placeholder {
     color: #cca8e9
 
 }
+
+input[type=text]:focus {
+    border: 2px dotted #cca8e9;
+  }
 
 /* Style the "Add" button */
 .addBtn {

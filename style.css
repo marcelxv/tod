@@ -8,8 +8,6 @@ body {
 
 }
 
-
-
 a {
     color: #cca8e9
 }
@@ -54,7 +52,7 @@ ul li:hover {
 
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
-  background: #c3bef0;
+  background: #ccc;
   color: #fff;
   text-decoration: line-through;
 }
